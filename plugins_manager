@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+rm -rf plugins/*
+
+
+cordova plugins add cordova-plugin-x-toast
+
+cordova plugins add cordova-plugin-whitelist
+cordova plugins add cordova-plugin-extension
+cordova plugins add cordova-plugin-app-event
+cordova plugins add cordova-plugin-app-preferences
+cordova plugins add cordova-plugin-console
+cordova plugins add cordova-plugin-device
+cordova plugins add cordova-plugin-file
+cordova plugins add cordova-plugin-file-transfer
+cordova plugins add cordova-plugin-media
+cordova plugins add cordova-plugin-network-information
+cordova plugins add cordova-plugin-splashscreen
+cordova plugins add cordova-plugin-vibration
+
+
